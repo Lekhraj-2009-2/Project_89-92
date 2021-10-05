@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Quiz-A-Math</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="quiz_login.css">
+        <script src="quiz_login.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="child" id="main">
+                <div id="welcome">
+                    <h3>WELCOME TO</h3>
+                    <div id="title" class="col-lg-15 col-sm-15 col-xs-15">
+                        <img id="logo" src="icons8-numbers-48.png">
+                        <h1>Quiz-A-Math</h1>
+                    </div>
+                </div>
+                <br>
+                <h5 class="request">Please login to continue</h5>
+                <br>
+                <div id="login">
+                    <div class="col-lg-5 col-sm-5 col-xs-5 login_div1">
+                        <h3>Player 1 (Login for the Game)</h3>
+                        <label>User Name:</label>
+                        <input type="text" id="player1_name_input" class="form-control" placeholder="Player 1">
+                        <br>
+                    </div>
+                    <br>
+                    <div class="col-lg-5 col-sm-5 col-xs-5 login_div2">
+                        <h3>Player 2 (Login for the Game)</h3>
+                        <label>User Name:</label>
+                        <input type="text" id="player2_name_input" class="form-control" placeholder="Player 2">
+                        <br>
+                        <br>
+                    </div>
+                    <button onclick="addUser()" class="btn btn-primary" style="width: 25%;">LOGIN</button>
+                </div>
+                <br>
+                <br>
+                <div id="contact" class="col-lg-15 col-sm-15 col-xs-15">
+                    <hr>
+                    <div id="spacing"></div>
+                    <img onclick="facebook()" class="contact" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/1200px-Facebook_Logo_%282019%29.png">
+                    <img onclick="instagram()" class="contact" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh6Qj2b_H8yMEQnmU5NhwWId0iMb7A-yDZQOLUF-r76xkzw6fZ1q-IDVzglSs1S9So2kg&usqp=CAU">
+                    <img onclick="twitter()" class="contact" src="https://www.creativefreedom.co.uk/wp-content/uploads/2017/06/Twitter-featured.png">
+                    <img onclick="google()" class="contact" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiTmm_nfUFp9KqR00veQfOKiLHUcc4FKTsyZx0USwEtXdSOUsP9nwtzT0avfCy6CfRoCU&usqp=CAU">
+                    <img onclick="gmail()" class="contact" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9xHs3QMFjq2H7R_47S5X_ezC70uKgMXXrrj9PW_EWRSpUGEPn0sWmkll9xs_F5P1ywbo&usqp=CAU">
+                    <div class="footer"></div>
+                </div>
+            </div>
+            <div class="col-lg-15 col-sm-15 col-xs-15 child" id="brand">
+                <img class="background" src="Background.jpg">
+            </div>
+        </div>
+    </body>
+</html>

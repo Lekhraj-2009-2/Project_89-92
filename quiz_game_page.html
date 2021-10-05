@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	    <title>Let's Play</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="quiz_game_page.css">
+    </head>
+    <body>
+        <br>
+        <h4 id="player1_name"></h4><span id="player1_score"></span><!--Will be set using js-->
+		<br>
+		<h4 id="player2_name"></h4><span id="player2_score"></span><!--Will be set using js-->
+        <div class="container">
+	        <center>
+		        <h2 style="color: white;"><b>Quiz-A-Math</b></h2>
+                <h3 id="player_question"><!--Will be set using js--></h3>
+				<h3 id="player_answer"><!--Will be set using js--></h3>
+                <br>
+				<div id="output" class="col-lg-6"><!--Will be set using js--></div>
+                <br>
+                <br>
+		        <label>Send a Sum: <b style="color: red">Try putting any two numbers less than 100.</b></label>
+                <br>
+                <h5>Number 1</h5>
+				<input type="number" id="number_1" style="width: 45%;" class="form-control" placeholder="Number">
+                <h5>Number 2</h5>
+                <input type="number" id="number_2" style="width: 45%;" class="form-control" placeholder="Number">
+				<br>
+                <br>
+				<button onclick="send()" class="btn btn-success" style="width: 20%;">SEND</button>
+            </center>
+       </div>
+       <script src="quiz_game_page.js"></script>
+    </body>
+</html>

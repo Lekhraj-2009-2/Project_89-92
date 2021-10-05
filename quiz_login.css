@@ -1,0 +1,72 @@
+body{
+    text-align: center;
+    background-color: darkslategray;
+}
+.container{
+    width: 98%;
+    border-radius: 25px;
+    padding-top: 3px;
+}
+.child{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+#main{
+    background-color: white;
+}
+#welcome{
+    height: 30%;
+}
+#login{
+    height: 55%;
+}
+#contact{
+    height: 15%;
+}
+#title{
+    display: flex;
+    text-align: center;
+}
+#logo{
+    margin-left: 31%;
+}
+h1{
+    margin-left: 5px;
+    margin-right: 32%;
+}
+.request{
+    color: grey;
+    font-size: 16px;
+}
+.login_div1, .login_div2{
+    margin-left: 29%;
+    margin-right: 29%;
+}
+#player1_name_input, #player2_name_input{
+    border: 2px solid black;
+}
+.background{
+    height: 100%;
+    width: 100%;
+}
+.contact{
+    border-radius: 50%;
+    border: 1px solid black;
+    height: 45px;
+    width: 45px;
+    margin-left: 7px;
+}
+#spacing{
+    height: 10px;
+}
+.footer{
+    height: 25px;
+}
+#welcome h3{
+    padding-top: 5px;
+}
+hr{
+    border-color: rgb(85, 85, 85);
+    width: 75%;
+}
